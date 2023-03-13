@@ -1,0 +1,100 @@
+/* Body styles */
+body {
+    background-color: #1c1c1e;
+    color: #d9d9d9;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #212121;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  header nav {
+    margin-top: 10px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #d9d9d9;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    color: #ffffff;
+  }
+  
+  /* Main styles */
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  main > div {
+    background-color: #212121;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  main > div:nth-child(2) {
+    background-color: #1c1c1e;
+    flex: 2;
+  }
+  
+  main h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  section p {
+    margin-bottom: 20px;
+  }
+  
+  section ul {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Link styles */
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #d9d9d9;
+  }
+  
